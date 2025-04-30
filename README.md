@@ -16,8 +16,7 @@
   <a href="https://github.com/ergoplatform/awesome-ergo/blob/master/LICENSE"><img src="https://img.shields.io/badge/license-CC0_1.0-lightgrey.svg" alt="License: CC0"></a>
 </p>
 
-> **Contributing:** open a PR to add or update projects. Items must be active & have a working URL.
-> Docs live in <https://github.com/ergoplatform/ergodocs>, while this list lives in <https://github.com/ergoplatform/awesome-ergo>.
+> **Contributing:** open a PR to add or update projects. 
 
 ---
 
@@ -27,7 +26,6 @@
   - ⚙️ [Nodes](#nodes)
   - 🔮 [Oracles](#oracles)
   - 🌉 [Bridges](#bridges)
-  - 🧰 [Frameworks](#frameworks)
 - 💼 [Wallets](#wallets)
   - 🖥️ [Browser & Desktop](#browser--desktop)
   - 📱 [Mobile](#mobile)
@@ -41,9 +39,11 @@
   - 📜 [Smart Contracts & ErgoScript](#smart-contracts--ergoscript)
   - 🧱 [Frameworks](#frameworks-dev)
   - 📄 [Templates](#templates)
-  - 🔧 [Utilities & CLI](#utilities--cli)
+  - 🔧 [Utilities](#utilities)
+  - ⌨️ [CLI Tools](#cli-tools)
   - 🔌 [Node Interaction & APIs](#node-interaction--apis)
   - 🧪 [Testing & Debugging](#testing--debugging)
+  - 💳 [Payments](#payments)
   - ✨ [Examples & Snippets](#examples--snippets)
 - 💸 [DeFi & dApps](#defi--dapps)
   - 💹 [DEXs & Swaps](#dexs--swaps)
@@ -83,6 +83,7 @@
 ### ⚙️ Nodes <a id="nodes"></a>
 
 - 🥇 **[Reference Client (Node)](https://github.com/ergoplatform/ergo)** – official Scala implementation. [`Scala`] *(Active)*
+  - *See [Ergo Documentation](https://docs.ergoplatform.com/node/install/) for installation guides, including [bootstrapping from a UTXO snapshot](https://docs.ergoplatform.com/node/pruned-full-node/).*
 - [Ergode](https://github.com/ross-weir/ergode) – experimental TypeScript node. [`TS`]
 
 ### 🔮 Oracles <a id="oracles"></a>
@@ -91,6 +92,7 @@
   - [Oracle Pool Bootstrap](https://github.com/ergoplatform/oracle-core/tree/master/oracle-pool-bootstrap)
   - [Connector Library](https://github.com/ergoplatform/oracle-core/tree/master/connectors/connector-lib)
   - [How-To Guide](https://github.com/ergoplatform/oracle-core/blob/develop/docs/how_to_bootstrap.md)
+  - [Tutorial: How I bootstrapped an ERG/XAU pool on testnet](https://github.com/ergoplatform/oracle-core/blob/develop/docs/how_to_bootstrap.md)
 - [EIP-23 Oracle Pools 2.0 Spec](https://github.com/ergoplatform/eips/pull/41)
 - [Ergo Oracles V1 Overview](https://github.com/Emurgo/Emurgo-Research/blob/master/oracles/Oracle-Pools.md)
 - [Ergo Easy Oracle](https://github.com/reqlez/ergo-easy-oracle) – Docker deployment helper. [`Docker`]
@@ -108,24 +110,19 @@
   - [CLI Utils](https://github.com/rosen-bridge/utils/tree/dev/packages/cli) [`TS`?]
   - [Docker Deploy Guide](https://github.com/rosen-bridge/operation/blob/dev/docs/watcher/deploy-docker.md)
 
-### 🧰 Foundational Frameworks <a id="frameworks"></a>
 
-- 🥇 **[Scorex](https://github.com/scorexfoundation/scorex)** – modular blockchain framework that *underpins* Ergo's core node implementation. [`Scala`]
-
----
 
 ## 💼 Wallets <a id="wallets"></a>
 
 > See also: [Wallets Overview on ErgoDocs](https://docs.ergoplatform.com/dev/wallets/)
 
-- 🥇 **[Nautilus Wallet](https://nautilus-wallet.io/)** – browser extension with dApp Connector *(Live)*. [GitHub](https://github.com/nautls/nautilus-wallet) [`JS/TS`] *(Active)*
-- 🥇 **[Satergo](https://satergo.com/)** – privacy-focused desktop wallet with full node *(Live)*. [GitHub](https://github.com/Satergo/Satergo) [`Java`] *(Active)*
-- 🥇 **[Ergo Mobile Wallet (Android)](https://play.google.com/store/apps/details?id=org.ergoplatform.android)** – official Android wallet *(Live)*. [GitHub](https://github.com/ergoplatform/ergo-wallet-app) [`Kotlin`] *(Active)*
-- 🥇 **[Ergo Mobile Wallet (iOS)](https://apps.apple.com/us/app/ergo-wallet-app/id1569044501)** – official iOS wallet *(Live)*. [GitHub](https://github.com/ergoplatform/ergo-wallet-app) [`Swift`] *(Active)*
-- [SAFEW](https://chrome.google.com/webstore/detail/safew/lmjcdljhgidjbcpdkfknpfknbbkfpogg) – browser wallet with dApp Connector *(Live)*. [GitHub](https://github.com/ThierryM1212/SAFEW) [`JS/TS`] *(Active)*
+- **[Nautilus Wallet](https://nautilus-wallet.io/)** – browser extension with dApp Connector *(Live)*. [GitHub](https://github.com/nautls/nautilus-wallet) [`JS/TS`] *(Active)*
+- **[Satergo](https://satergo.com/)** – privacy-focused desktop wallet with full node *(Live)*. [GitHub](https://github.com/Satergo/Satergo) [`Java`] *(Active)*
+- **[Ergo Mobile Wallet (Android)](https://play.google.com/store/apps/details?id=org.ergoplatform.android)** – official Android wallet *(Live)*. [GitHub](https://github.com/ergoplatform/ergo-wallet-app) [`Kotlin`] *(Active)*
+- **[Ergo Mobile Wallet (iOS)](https://apps.apple.com/us/app/ergo-wallet-app/id1569044501)** – official iOS wallet *(Live)*. [GitHub](https://github.com/ergoplatform/ergo-wallet-app) [`Swift`] *(Active)*
 - [Minotaur Wallet](https://minotaur-wallet.io/) – Android, iOS & Desktop wallet with multi-sig *(Live)*. [GitHub](https://github.com/minotaur-ergo/minotaur-wallet) [`JS/TS`] *(Active)*
   - [Multi-Sig Server](https://github.com/minotaur-ergo/Minotaur-Signing-Server) / [Alternative](https://github.com/lazypinkpatrick/cosigning-server)
-- [Ergo Light Client (iOS Beta)](https://github.com/bjenkinsgit/ErgoIOSLiteClient) – community iOS light client. [`Swift`] *(Beta)*
+- [SAFEW](https://chrome.google.com/webstore/detail/safew/lmjcdljhgidjbcpdkfknpfknbbkfpogg) – browser wallet with dApp Connector *(Live)*. [GitHub](https://github.com/ThierryM1212/SAFEW) [`JS/TS`] *(Active)*
 
 ### 🛟 Wallet Utilities & Recovery <a id="utilities--recovery"></a>
 
@@ -134,6 +131,7 @@
 - [Stealth Address Generator](https://ergomixer.github.io/stealth/) – web tool for stealth addresses.
 - [Cold Wallet Setup Guide (Wiki)](https://github.com/ergoplatform/ergo-wallet-app/wiki/Cold-wallet) – guide for official mobile apps.
 - [Ergo Poor Man's Wallet (EPMW)](https://github.com/epmw/epmw) – ultra-low-cost DIY hardware wallet. [`Hardware`]
+- [Ergo Light Client (iOS Beta)](https://github.com/bjenkinsgit/ErgoIOSLiteClient) – community iOS light client. [`Swift`] *(Beta)*
 
 ---
 
@@ -143,6 +141,7 @@
 
 ### 🎯 Primary SDKs
 
+- 🥇 **[AppKit](https://github.com/ergoplatform/ergo-appkit)** – Java/Scala SDK for building Ergo apps. [`Java`, `Scala`] *(Active)*
 - 🥇 **[Fleet SDK](https://fleet-sdk.github.io/docs/)** – JS/TS SDK for web dApps. [GitHub](https://github.com/fleet-sdk) [`JS/TS`] *(Active)*
 - 🥇 **[Sigma-Rust](https://github.com/ergoplatform/sigma-rust/)** – core primitives & serialization in Rust. [`Rust`] *(Active)*
 
@@ -159,15 +158,15 @@
 
 - 🥇 **[ErgoLib (sigma-rust)](https://github.com/ergoplatform/sigma-rust/tree/develop/ergo-lib)** – high-level Rust abstractions. [Docs](https://docs.rs/ergo-lib/) [`Rust`]
 - 🥇 **[ergo-lib-wasm](https://github.com/ergoplatform/sigma-rust/tree/develop/bindings/ergo-lib-wasm)** – WASM bindings for JS/TS. [NPM (Browser)](https://www.npmjs.com/package/ergo-lib-wasm-browser) | [NPM (NodeJS)](https://www.npmjs.com/package/ergo-lib-wasm-nodejs) [`JS/TS`, `Rust`]
-- [ergo-lib-jni](https://github.com/ergoplatform/sigma-rust/tree/develop/bindings/ergo-lib-jni) – JNI bindings for JVM. [Docs](https://docs.rs/ergo-lib-jni/) [`Java`, `Rust`]
 - 🥇 **[ergo-lib-python](https://github.com/ergoplatform/sigma-rust/tree/develop/bindings/ergo-lib-python)** – Python bindings (recommended). [PyPI](https://pypi.org/project/ergo-lib/) [`Python`, `Rust`] *(Active)*
+- [ergo-lib-jni](https://github.com/ergoplatform/sigma-rust/tree/develop/bindings/ergo-lib-jni) – JNI bindings for JVM. [Docs](https://docs.rs/ergo-lib-jni/) [`Java`, `Rust`]
 - [ergo-lib-c](https://github.com/ergoplatform/sigma-rust/tree/develop/bindings/ergo-lib-c) – C bindings. [Docs](https://docs.rs/ergo-lib-c/) [`C`, `Rust`]
 - [ergo-lib-go](https://github.com/sigmaspace-io/ergo-lib-go) – Go bindings (via C). [Docs](https://pkg.go.dev/github.com/ergoplatform/ergo-lib-go) [`Go`, `C`, `Rust`] *(Community)*
 - [Ergo Wallet Core (JVM)](https://mvnrepository.com/artifact/org.ergoplatform/ergo-wallet) – wallet logic from reference node. [Source](https://github.com/ergoplatform/ergo/tree/master/ergo-wallet) [`Java`]
 
 ### 🤝 Community SDKs/Libraries <a id="community-sdkslibraries"></a>
 
-- 🥇 **[FleetSharp](https://github.com/pulsarz/FleetSharp)** – C# transaction builder inspired by Fleet. [`C#`]
+- **[FleetSharp](https://github.com/pulsarz/FleetSharp)** – C# transaction builder inspired by Fleet. [`C#`]
 - [Ergpy](https://github.com/mgpai22/ergpy) – Python wrapper using JPype (AppKit based, consider `ergo-lib-python`). [`Python`, `Java`]
 - [ergo-golang](https://github.com/azhiganov/ergo-golang) – early-stage Go library. [`Go`]
 - [sigma_rb](https://github.com/thedlop/sigma_rb) – Ruby bindings (via C). [`Ruby`, `C`, `Rust`]
@@ -193,12 +192,15 @@
 ### 📜 Smart Contracts & ErgoScript <a id="smart-contracts--ergoscript"></a>
 
 - 🥇 **[Sigmastate Interpreter](https://github.com/ScorexFoundation/sigmastate-interpreter)** – core interpreter & type system. [`Scala`, `ErgoScript`]
+- 🥇 **[escript.online](https://escript.online/)** – online editor & playground. [GitHub](https://github.com/SavonarolaLabs/escript-online) [`JS/TS`]
+- 🥇 **[Ergo Playgrounds](https://github.com/ergoplatform/ergo-playgrounds)** – Scala-based contract/off-chain testing. [`Scala`]
 - [Ergoscript Compiler (Rust)](https://github.com/ergoplatform/sigma-rust/tree/develop/ergoscript-compiler) – Rust implementation. [`Rust`]
 - [Ergoscript Compiler (Scala)](https://github.com/ergoplatform/ergoscript-compiler) – Scala CLI tool. [`Scala`]
-- [Ergo Playgrounds](https://github.com/ergoplatform/ergo-playgrounds) – Scala-based contract/off-chain testing. [`Scala`]
+- [ErgoScala Compiler](https://github.com/ergoplatform/ergoscala-compiler) – compile subset of Scala to ErgoScript. [`Scala`] *(Needs link update if available)*
+- [ErgoScript CLI Compiler](https://github.com/ergoplatform/ergoscript-compiler) – CLI tool to compile ErgoScript to address. [`Scala`] *(Duplicate link? Check source)*
 - [VSCode ErgoScript Language Support](https://marketplace.visualstudio.com/items?itemName=ergoscript.ergoscript-language-support) – syntax highlighting. [Source](https://github.com/GuapSwap/vscode-ergoscript-language-support)
 - [FlowcardLib](https://github.com/lucagdangelo/flowcardLib) – library of contract templates. [`ErgoScript`]
-- 🥇 **[escript.online](https://escript.online/)** – online editor & playground. [GitHub](https://github.com/SavonarolaLabs/escript-online) [`JS/TS`]
+- [FlowCards Framework](https://github.com/ergoplatform/ergo-jde/tree/main/flowcards) – declarative framework for dApps (part of JDE). [`JSON`, `Scala`]
 - [ergo-script-re](https://github.com/ross-weir/ergo-script-re) – reverse engineering & analysis tools. [`Rust`]
 - [ergo-castanet](https://github.com/iandebeer/ergo-castanet) – Dhall-based development tooling. [`Dhall`, `Scala`]
 - [Plutomonkey](https://wallet.plutomonkey.com/) – web compiler (ErgoScript/Plutus).
@@ -207,8 +209,7 @@
 
 ### 🧱 Frameworks <a id="frameworks-dev"></a>
 
-- 🥇 **[AppKit](https://github.com/ergoplatform/ergo-appkit)** – Java/Scala SDK for building Ergo apps. [`Java`, `Scala`] *(Active)*
-- 🥇 **[Mosaik](https://github.com/MrStahlfelge/mosaik)** – framework for native-feel mobile dApp frontends (Paused). [`Java`]
+- 🥇 **[Mosaik](https://github.com/MrStahlfelge/mosaik)** – framework for native-feel mobile dApp frontends *(Paused)*. [`Java`]
 - [Kiosk](https://github.com/scalahub/Kiosk) – framework for secure dApps (Archived). [`Scala`]
 - [Ergo JSON Development Environment (JDE)](https://github.com/ergoplatform/ergo-jde) – dApp framework using JSON config. [`JSON`, `Scala`]
 - [Edge](https://github.com/Ergo-Lend/edge) – Ergo Development Generics Elements (by ErgoLend). [`Scala`]
@@ -225,7 +226,7 @@
 - [ergo-play-boilerplate](https://github.com/kii-dot/ergo-play-boilerplate) – Scala Play boilerplate. [`Scala`]
 - [ergo-basic-template](https://github.com/ERGnomes/ergo-basic-template) – basic React template. [`JS/TS`, `React`]
 
-### 🔧 Utilities & CLI <a id="utilities--cli"></a>
+### 🔧 Utilities <a id="utilities"></a>
 
 - [Ergo Utils (JS)](https://github.com/anon-real/ErgoUtils) – utility library in JS/TS. [`JS/TS`]
 - [TokenJay](https://tokenjay.app/) – mobile-friendly token minting/management tool. *(Live)*
@@ -256,14 +257,29 @@
 - [ErgoNodeAndroid (Termux)](https://github.com/rustinmyeye/ErgoNodeAndroid) – one-click Android node setup app. [`Shell`, `Android`]
 - [ErgoTool](https://github.com/aslesarenko/ergo-tool) – CLI for blockchain interaction via AppKit. [`Scala`]
 
+### ⌨️ CLI Tools <a id="cli-tools"></a>
+
+- [Yet Another Airdrop Tool (YAAT)](https://github.com/FlyingPig69/YAAT/) – Python batch transfer/airdrop tool. [`Python`]
+- [Ergo Vanity Address Generator](https://github.com/jellymlg/ergo-vanitygen) – generate custom addresses. [`Scala`]
+- [MobilERG](https://github.com/ladopixel/mobilERG) – interact via phone calls/SMS. [`Python`]
+- [tERGminal](https://github.com/ladopixel/tERGminal) – interact from the terminal. [`Python`]
+- [Ergo-node-TUI-installer](https://github.com/Itaggergaard/Ergo-node-TUI-installer) – TUI installer for nodes. [`Shell`]
+- [Ergo Synced Node Helper](https://github.com/mgpai22/ergo-synced-node) – helper scripts for synced nodes. [`Python`, `Shell`]
+- [Ergo Portable Node](https://github.com/ross-weir/ergo-portable) – scripts for portable node setup. [`Shell`]
+- [Ergo Nix Toolkit](https://github.com/ergoplatform/ergo-nix) – Nix toolkit for Ergo packages. [`Nix`]
+- [Ergo Bootstrap](https://github.com/ergoplatform/ergo-bootstrap) – Nix-based cluster deployment tool. [`Nix`, `Shell`]
+- [Ergo RPI Scripts](https://github.com/Eeysirhc/ergo-rpi) – scripts/guide for RPi node setup. [`Shell`?]
+- [ErgoScripts (Misc)](https://github.com/glasgowm148/ergoscripts) – misc community scripts (e.g., nginx config). [`Shell`, `Other`]
+- [ErgoNodeAndroid (Termux)](https://github.com/rustinmyeye/ErgoNodeAndroid) – one-click Android node setup app. [`Shell`, `Android`]
+
 ### 🔌 Node Interaction & APIs <a id="node-interaction--apis"></a>
 
+- 🥇 **[Danaides](https://github.com/ergopad/danaides)** – high-performance blockchain toolkit/indexer. [`Python`]
 - 🥇 **[Ergo Node API Swagger UI](http://127.0.0.1:9053/swagger)** – interactive API docs (local node). [OpenAPI Spec](https://github.com/ergoplatform/ergo/blob/master/src/main/resources/api/openapi.yaml)
 - [Ergo GraphQL](https://github.com/capt-nemo429/ergo-graphql) – GraphQL interface for blockchain data. [`JS/TS`]
 - [Rosetta API for Ergo](https://github.com/ross-weir/rosetta-ergo) – Rosetta standard implementation. [`Go`]
 - [Ergo Scanner](https://github.com/ergoplatform/scanner) – framework for scanning chain events. [`Scala`]
 - [ergo-indexer-rust](https://github.com/darkdrag00nv2/ergo-indexer-rust) – blockchain indexer in Rust. [`Rust`]
-- [Danaides](https://github.com/ergopad/danaides) – high-performance blockchain toolkit/indexer. [`Python`]
 - [Strainer](https://github.com/dav009/strainer) – listen and pipe TXs/eUTXOs from node. [`Rust`]
 - [ergo-node-zmqpub](https://github.com/cruxfinance/ergo-node-zmqpub) – publish node events via ZeroMQ. [`Scala`]
 - [Pragmaxim Chain Indexer (Ergo)](https://github.com/pragmaxim-com/chain-indexer/tree/ergo-boxes) – custom indexer implementation. [`Scala`]
@@ -280,6 +296,12 @@
 - [Ergoscript Simulator](https://github.com/spectrum-finance/ergoscript-simulator) – community tool for simulating ErgoScript. [`Scala`?]
 - [Ergo Puppet](https://github.com/dav009/ergo-puppet) – off-chain experimentation/unit testing tool. [`Scala`]
 - [Ergo Test Vectors](https://github.com/ergoplatform/ergo-test-vectors) – standard test vectors for crypto/serialization.
+
+### 💳 Payments <a id="payments"></a>
+
+- [ErgoPay (EIP-20)](https://github.com/ergoplatform/eips/blob/master/eip-0020.md) – URI scheme for wallet-dApp interaction (non-web). [Docs](https://docs.ergoplatform.com/dev/stack/ergo-pay/)
+- [dApp Connector (EIP-12)](https://github.com/ergoplatform/eips/pull/23/files) – interface for web wallet-dApp interaction. [Docs](https://docs.ergoplatform.com/dev/stack/dApp-connector/)
+- [Proxy Contracts (EIP-17)](https://github.com/ergoplatform/eips/blob/master/eip-0017.md) – standard for secure dApp interaction. [Docs](https://docs.ergoplatform.com/dev/stack/proxy-contracts/)
 
 ### ✨ Examples & Snippets <a id="examples--snippets"></a>
 
@@ -354,12 +376,9 @@
 
 ### 🚀 Launchpads <a id="launchpads"></a>
 
-- 🥇 **[Ergopad](https://ergopad.io/)** – decentralized launchpad *(Live)*. [GitHub Org](https://github.com/ergopad) | [Contracts](https://github.com/ergopad/ergopad-api/tree/dev/app/contracts) | [Telegram](https://t.me/ergopad_chat) *(Active)*
-
 ### 🆔 Identity & DNS <a id="identity--dns"></a>
 
-- 🥇 **[Ergonames](https://ergonames.com/)** – decentralized naming service *(Live)*. [GitHub Org](https://github.com/ergonames) | [Contracts](https://github.com/ergonames/ergonames/tree/master/src/main/scala) | [Rust SDK](https://github.com/ergonames/sdk/tree/master/rust) *(Active)*
-- [Bitdomains](https://bitdomains.org/) – decentralized domain name system. [Contracts](https://github.com/bitdomains/contracts) *(Paused)*
+- **[Ergonames](https://ergonames.com/)** – decentralized naming service *(Paused)*. [GitHub Org](https://github.com/ergonames) | [Contracts](https://github.com/ergonames/ergonames/tree/master/src/main/scala) | [Rust SDK](https://github.com/ergonames/sdk/tree/master/rust)
 - [Ergo Reputation System](https://reputation-systems.github.io/) – on-chain reputation system *(Beta)*. [GitHub Org](https://github.com/sigma-rps) | [Library](https://github.com/reputation-systems/reputation-system-lib) | [Forum](https://www.ergoforum.org/t/reputation-system/4782) *(Active)*
 
 ### 🤫 Privacy <a id="privacy"></a>
@@ -371,8 +390,7 @@
 
 - [BlitzTCG](https://blitz-tcg.com/) – Trading Card Game *(Beta)*. *(Active)*
 - [CyberVerse](https://cyberverseteam.itch.io/cyberverse) – Metaverse/Gaming project *(Live)*. [Telegram](https://t.me/CyberVersegame) *(Active)*
-- [Night Owl Casino](https://nightowlcasino.io/) – decentralized casino *(Paused)*. [GitHub Org](https://github.com/nightowlcasino)
-- [ObolFlip](https://github.com/ObolFlip) – decentralized CoinFlip betting. [Client](https://github.com/ObolFlip/obolflip-client) *(Active?)*
+- [ObolFlip](https://github.com/ObolFlip) – decentralized CoinFlip betting example. [Client](https://github.com/ObolFlip/obolflip-client)
 - [Comet Lottery](https://github.com/mgpai22/comet-lottery) – lottery dApp contracts & bot. [`Scala`] *(Active?)*
 
 ### 🏛️ DAO Frameworks <a id="dao-frameworks"></a>
@@ -384,13 +402,10 @@
 
 - [CruxFinance](https://github.com/cruxfinance) – cross-chain liquidity solutions *(Live)*. [`Scala`, `Rust`, `JS/TS`] *(Active)*
 - [Machina Finance](https://github.com/nautls/machina-finance) – off-chain execution bot platform (Ergomatic). [`JS/TS`] *(Active)*
-- [thz.fm](https://thz.fm/) – decentralized media/music platform *(Inactive/Disappeared?)*. [Contracts](https://github.com/TremendouslyHighFrequency/SmartContracts) | [Telegram](https://t.me/swampoflife)
 - [Hodlbox](https://hodlbox.xyz/) – time-locked token boxes *(Live)*. [GitHub](https://github.com/SavonarolaLabs/hodlbox-xyz) | [Contracts](https://github.com/SavonarolaLabs/hodlbox-xyz/tree/main/src/lib/contract) *(Active)*
 - [SigmaO](https://sigmao.cc/) – options trading platform *(Beta)*. [GitHub](https://github.com/ThierryM1212/sigmao) | [Telegram](https://t.me/SigmaOpts) *(Active)*
 - [Netnotes](https://github.com/networkspore/Netnotes-Linux/releases) – secure P2P messaging/notes *(Beta)*. [`Java`] *(Active)*
 - [TabbyPOS](https://tabbypos.com/) – Point-of-Sale system *(Live)*. [GitHub](https://github.com/Kolmen-Tech/ErgoPOS) | [Telegram](https://t.me/tabbypos) *(Active)*
-- [Azorus](https://azorus.io/) – toolkit/platform for Ergo interaction. [GitHub](https://github.com/gsblabsio/azorus) | [Telegram](https://t.me/azorus_xyz) *(Paused)*
-- [SigmaStamp](https://www.sigmastamp.ml/) – notary/timestamping service. [GitHub](https://github.com/sigmastamp) [`JS/TS`] *(Paused)*
 - [Benefaction Platform](https://github.com/StabilityNexus/BenefactionPlatform-Ergo) – charity/donation platform prototype. *(Development)*
 - [Moria Finance](https://github.com/Moria-Finance) – ERG derivatives project. *(Development)*
 - [ChainCash](https://github.com/ChainCashLabs) – decentralized monetary system. [Whitepaper](https://github.com/kushti/chaincash/blob/master/paper/chaincash.pdf) | [Server](https://github.com/ChainCashLabs/chaincash-rs) | [Contracts](https://github.com/ChainCashLabs/chaincash/tree/master/contracts) *(Active)*
@@ -587,6 +602,7 @@
 - 🥇 **[DeCo Education](https://deco-education.github.io/deco-docs/docs/intro)** – educational platform with Ergo courses.
   - [Into the Woods Course](https://deco-education.github.io/deco-docs/docs/category/into-the-woods)
   - [ErgoScript Developer Course](https://github.com/DeCo-Education/ErgoScript-Developer-Course)
+- [ErgoScript 101 Crash Course (Slides)](https://docs.google.com/presentation/d/10gYO82z_7qloRrFOcCxTFuzpP40IImPyIKMV2ZFd9M4/edit#slide=id.p) – quick overview slides.
 - [Zack Balbin's Ergo Tutorials](https://github.com/zackbalbin/ErgoTutorials) – Scala tutorials. [`Scala`]
 - [Ergo Community YouTube](https://www.youtube.com/@ErgoPlatform) – official channel (AMAs, tutorials).
 - [ErgoFoundation YouTube](https://www.youtube.com/@ErgoFoundation) – Foundation-focused channel.
@@ -605,6 +621,7 @@
   - [Fleet Compiler Docs](https://fleet-sdk.github.io/docs/compiler)
   - [Fleet Serializer Overview](https://fleet-sdk.github.io/docs/serializer-overview)
   - [Fleet Babel Fees Plugin Docs](https://fleet-sdk.github.io/docs/plugins/babel-fees)
+- *Note: The main [Ergo Documentation](https://docs.ergoplatform.com/dev/tutorials/) contains many specific guides (e.g., debugging, message signing, running off-chain bots).*
 
 ### 📄 Papers & Specifications <a id="papers--specifications"></a>
 
@@ -634,6 +651,8 @@
 - [Stealth Address Docs (Aragogi)](https://github.com/aragogi/Stealth-doc) – stealth address scanner/mixer docs.
 - [Test Vectors - Transaction Serialization](https://github.com/ergoplatform/ergo-test-vectors/blob/master/src/test/resources/vector/tx_ser.json) – TX serialization test examples.
 - [Test Vectors - Signature Scheme](https://github.com/ergoplatform/ergo-test-vectors/blob/master/src/test/resources/vector/sig.json) – signature scheme test examples.
+- **[Scorex](https://github.com/scorexfoundation/scorex)** – modular blockchain framework that *underpins* Ergo's core node implementation. [`Scala`]
+
 
 ### 🔩 Utilities <a id="utilities"></a>
 
@@ -642,6 +661,8 @@
 - [ErgoToolsBot (Telegram)](https://t.me/ergotoolsbot) – Telegram bot with various utilities. [GitHub](https://github.com/ladopixel/ErgoToolsBot) [`Python`]
 - [Matterbridge](https://github.com/42wim/matterbridge) – software for bridging community chats.
 - [SharkNet](https://github.com/The-Last-Byte-Bar/SharkNet) – community dataset of ErgoScript examples for AI/ML.
+- [General Ergo Chatbot](https://www.chatbase.co/chatbot-iframe/zxB2uzZfYoHIpA98eTzgM) – AI assistant trained on Ergo docs.
+- [ErgoScript Chatbot](https://www.chatbase.co/chatbot-iframe/INAIfQ2ts4E6ykf4rseVu) – AI assistant focused on ErgoScript.
 
 ---
 
