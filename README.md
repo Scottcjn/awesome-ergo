@@ -62,6 +62,8 @@ A curated list of awesome projects, tools, libraries, and resources for the Ergo
 
 ## Core Infrastructure
 
+> See also: [Protocol Overview on ErgoDocs](https://docs.ergoplatform.com/dev/protocol/protocol-overview/)
+
 ### Nodes
 
 *   [Reference Client (Node)](https://github.com/ergoplatform/ergo): The official Ergo node implementation. [`Scala`] [Status: Active]
@@ -96,6 +98,8 @@ A curated list of awesome projects, tools, libraries, and resources for the Ergo
 
 ## Wallets
 
+> See also: [Wallets Overview on ErgoDocs](https://docs.ergoplatform.com/dev/wallets/)
+
 ### Browser & Desktop
 
 *   [Nautilus Wallet](https://nautilus-wallet.io/): Feature-rich browser extension wallet supporting dApp Connector. [GitHub](https://github.com/nautls/nautilus-wallet) [`JS/TS`] [Status: Active] [Live]
@@ -126,6 +130,8 @@ A curated list of awesome projects, tools, libraries, and resources for the Ergo
 *   [Ergo Poor Man's Wallet (EPMW)](https://github.com/epmw/epmw): DIY ultra-low-cost hardware wallet solution (ErgoHack VII). [`Hardware`]
 
 ## SDKs & Libraries
+
+> See also: [Libraries Overview on ErgoDocs](https://docs.ergoplatform.com/dev/libraries/)
 
 ### Primary SDKs
 
@@ -172,6 +178,8 @@ A curated list of awesome projects, tools, libraries, and resources for the Ergo
 *   [Ergo SDK JS (ErgoLabs)](https://github.com/ergolabs/ergo-sdk-js): Community JS SDK using Wasm bindings. [`JS/TS`, `Wasm`]
 
 ## Development Tooling
+
+> See also: [Developer Getting Started Guide on ErgoDocs](https://docs.ergoplatform.com/dev/get-started/)
 
 ### Smart Contracts & ErgoScript
 
@@ -307,6 +315,8 @@ A curated list of awesome projects, tools, libraries, and resources for the Ergo
 
 ## DeFi & dApps
 
+> See also: [Ecosystem Overview on ErgoDocs](https://docs.ergoplatform.com/uses/use-cases-overview/)
+
 ### DEXs & Swaps
 
 *   [Spectrum Finance](https://spectrum.fi/): Cross-chain DEX with AMM and Order Book models. [Contracts](https://github.com/spectrum-finance/ergo-dex/tree/master/contracts) | [Backend](https://github.com/spectrum-finance/spectrum-offchain-ergo) [Status: Active] [Live]
@@ -379,6 +389,8 @@ A curated list of awesome projects, tools, libraries, and resources for the Ergo
 
 ## NFT Ecosystem
 
+> See also: [NFTs Overview on ErgoDocs](https://docs.ergoplatform.com/uses/nft/)
+
 ### Marketplaces & Auctions
 
 *   [SkyHarbor](https://skyharbor.io/): NFT marketplace. [Contracts](https://github.com/skyharbor-market/contracts) [Status: Active] [Live]
@@ -400,9 +412,10 @@ A curated list of awesome projects, tools, libraries, and resources for the Ergo
 
 ## Mining
 
+> See also: [Mining Overview on ErgoDocs](https://docs.ergoplatform.com/mining/mining-overview/)
+
 ### Pools
 
-*   [GetBlok.io Pool](https://ergo.getblok.io/): Popular Ergo mining pool.
 *   [MiningCore](https://github.com/oliverw/miningcore): Open-source mining pool software supporting Ergo. [Config Wiki](https://github.com/oliverw/miningcore/wiki/Configuration)
 *   [NOMP (ergo-nomp)](https://github.com/btclinux/ergo-nomp): Node Open Mining Portal adapted for Ergo.
 *   [Node Stratum Pool](https://github.com/vorujack/node-stratum-pool): Node.js based stratum pool server. [`JS`]
@@ -472,6 +485,8 @@ A curated list of awesome projects, tools, libraries, and resources for the Ergo
 *   [SigmaUSD Improvement Proposals (SIPs)](https://github.com/ergoplatform/sips): Repository for proposals related to the SigmaUSD protocol.
 
 ## Explorers & Dashboards
+
+> See also: [Explorer Overview on ErgoDocs](https://docs.ergoplatform.com/dev/stack/explorer/)
 
 *   [Ergo Explorer (Official)](https://explorer.ergoplatform.com/): The primary Ergo blockchain explorer. [Frontend](https://github.com/ergoplatform/explorer-frontend) | [Backend](https://github.com/ergoplatform/explorer-backend)
 *   [Sigmaspace](https://sigmaspace.io/): Alternative explorer with additional tools and charts.
@@ -588,5 +603,3 @@ A curated list of awesome projects, tools, libraries, and resources for the Ergo
 *   [ErgoToolsBot (Telegram)](https://t.me/ergotoolsbot): Telegram bot providing various Ergo utilities. [GitHub](https://github.com/ladopixel/ErgoToolsBot) [`Python`]
 *   [Matterbridge](https://github.com/42wim/matterbridge): Software used for bridging Ergo community chats between Discord and Telegram.
 *   [SharkNet](https://github.com/The-Last-Byte-Bar/SharkNet): Community-curated dataset of ErgoScript examples for training AI/ML models for developer tooling.
-
----
