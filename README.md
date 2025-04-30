@@ -439,9 +439,7 @@
 - [Gluon](https://github.com/DjedAlliance) – Infrastructure project aiming to bring Djed-style cross-chain stablecoins to Ergo. [Twitter](https://twitter.com/DjedAlliance) *(In Development)*
 - [Scalahub AgeUSD Example](https://github.com/scalahub/AgeUSD) – Example implementation of the AgeUSD stablecoin protocol (basis for SigmaUSD). [`Scala`] *(Archived)*
 
-### 🚀 Launchpads <a id="launchpads"></a>
 
-- [ErgoPad](https://ergopad.io/) – IDO launchpad platform enabling projects to raise funds and distribute tokens on Ergo *(Live)*. [GitHub Org](https://github.com/ergo-pad) | [Telegram](https://t.me/ergopad_chat) *(Active)*
 
 ### 🆔 Identity & DNS <a id="identity--dns"></a>
 
@@ -464,7 +462,6 @@
 - [ObolFlip](https://github.com/ObolFlip) – Decentralized CoinFlip betting game example. [Client](https://github.com/ObolFlip/obolflip-client) *(Example)*
 - [Comet Lottery](https://github.com/mgpai22/comet-lottery) – Smart contracts and off-chain bot for running a lottery dApp. [`Scala`] *(Active?)*
 - [Quid Games (ErgoHack)](https://github.com/hypo10use/quid-games) – Gaming dApp prototype developed during an ErgoHack event. [`Angular`, `TS`] *(Community, ErgoHack)*
-- [Inferno Black](https://github.com/c8e4d2a/inferno.black) - Gaming project? [`TS`?] *(Community)*
 
 ### 🏛️ DAO Frameworks <a id="dao-frameworks"></a>
 
