@@ -16,7 +16,8 @@
   <a href="https://github.com/ergoplatform/awesome-ergo/blob/master/LICENSE"><img src="https://img.shields.io/badge/license-CC0_1.0-lightgrey.svg" alt="License: CC0"></a>
 </p>
 
-> **Contributing:** open a PR to add or update projects. 
+> **Contributing:** open a PR to add or update projects. Items must be active & have a working URL.
+> Docs live in <https://github.com/ergoplatform/ergodocs>, while this list lives in <https://github.com/ergoplatform/awesome-ergo>.
 
 ---
 
@@ -48,6 +49,7 @@
 - 💸 [DeFi & dApps](#defi--dapps)
   - 💹 [DEXs & Swaps](#dexs--swaps)
   - 🏦 [Stablecoins & Lending](#stablecoins--lending)
+  - 🚀 [Launchpads](#launchpads)
   - 🆔 [Identity & DNS](#identity--dns)
   - 🤫 [Privacy](#privacy)
   - 🎮 [Gaming & Metaverse](#gaming--metaverse)
@@ -152,6 +154,7 @@
 - [Debox](https://github.com/ScorexFoundation/debox) – efficient primitive type Boxes. [`Scala`]
 - [BouncyCastle JS](https://github.com/aslesarenko/bouncycastle-js) – BouncyCastle compiled for JS. [`JS`]
 - [Scorex Crypto AVLTree](https://github.com/knizhnik/scorex_crypto_avltree) – Rust AVL Tree implementation. [Paper](https://github.com/knizhnik/scorex_crypto_avltree/blob/main/crypto_avltree.md) [`Rust`]
+- [AVLIODB](https://github.com/ScorexFoundation/AVLIODB) – Authenticated dictionary implementation based on AVL+ trees (used in Ergo). [`Scala`]
 
 ### 🔗 Language Bindings & Wrappers
 
@@ -166,6 +169,8 @@
 ### 🤝 Community SDKs/Libraries <a id="community-sdkslibraries"></a>
 
 - **[FleetSharp](https://github.com/pulsarz/FleetSharp)** – C# transaction builder inspired by Fleet. [`C#`]
+  - [SigmaFi Plugin](https://github.com/pulsarz/FleetSharp.SigmaFi) | [Spectrum Plugin](https://github.com/pulsarz/FleetSharp.SpectrumFi) | [CoinGecko Plugin](https://github.com/pulsarz/FleetSharp.CoinGecko)
+- [RustKit](https://github.com/rust-ergo/rustkit) – Community Rust SDK built on `sigma-rust`. [`Rust`]
 - [Ergpy](https://github.com/mgpai22/ergpy) – Python wrapper using JPype (AppKit based, consider `ergo-lib-python`). [`Python`, `Java`]
 - [ergo-golang](https://github.com/azhiganov/ergo-golang) – early-stage Go library. [`Go`]
 - [sigma_rb](https://github.com/thedlop/sigma_rb) – Ruby bindings (via C). [`Ruby`, `C`, `Rust`]
@@ -240,7 +245,8 @@
 - [Ergo Faucet](https://github.com/zargarzadehm/ergo-faucet) – simple faucet implementation. [`Scala`]
 - [Chain Name Service (Experimental)](https://github.com/ross-weir/chain-name-service) – experimental name service. [`Scala`]
 - [Transaction Group Framework](https://github.com/GetBlok-io/Subpooling#frameworks--abstractions) – manage large interrelated TXs (from GetBlok).
-- [ErgoUtilities (Rust)](https://github.com/robkorn/ergo-utilities-rust) – utility library for Rust off-chain code. [`Rust`]
+- [Ergo Utilities (Rust)](https://github.com/ergoplatform/ergo-utilities-rust) – utility library for Rust off-chain code. [`Rust`] *(Official)*
+- [Token Reward Dispenser](https://github.com/FlyingPig69/TokenRewardDispenser) – utility for distributing token rewards. [`Python`]
 - [Ergo Setup](https://github.com/abchrisxyz/ergo-setup) – Docker setup (Node, Explorer, GraphQL). [`Docker`]
 - [Ergo Handshake (Reference)](https://github.com/SabaunT/ergo-handshake) – reference P2P handshake implementation. [`Rust`]
 - [MobilERG](https://github.com/ladopixel/mobilERG) – interact via phone calls/SMS. [`Python`]
@@ -360,7 +366,7 @@
 - [GuapSwap](https://github.com/GuapSwap) – decentralized profit swapping for miners *(Live)*. [Contracts](https://github.com/GuapSwap/guapswap-ronin/tree/main/src/main/scala/contracts) *(Active)*
 - [Single Transaction Swap](https://www.single-tx-swap.com/) – UI for single TX atomic swaps *(Live)*. [GitHub](https://github.com/danieloravec/ergo-token-swap) *(Active)*
 - [Arbit](https://github.com/ConnecMent/arbit) – simple arbitrage platform. [`JS`] *(Active?)*
-- [Analog Ergo](https://github.com/dzyphr/ScalaSigmaParticle) – P2P atomic swap protocol. [Contract](https://github.com/dzyphr/ScalaSigmaParticle/blob/main/ScalarLock/src/main/scala/ScalarLock.scala) | [UI PoC](https://github.com/dzyphr/AtomicAnalogSwapWebsite) *(Active)*
+- [Analog Ergo](https://github.com/dzyphr/ScalaSigmaParticle) – P2P atomic swap protocol. [Contract](https://github.com/dzyphr/ScalaSigmaParticle/blob/main/ScalarLock/src/main/scala/ScalarLock.scala) | [UI PoC](https://github.com/dzyphr/AtomicAnalogSwapWebsite) 
 - [Mew Finance](https://mewfinance.com/) – DEX, NFT marketplace, and DeFi suite *(Live)*. [Docs](docs/eco/mew-finance.md) | [Telegram](https://t.me/MewFinance) *(Active)*
 
 ### 🏦 Stablecoins & Lending <a id="stablecoins--lending"></a>
@@ -377,7 +383,7 @@
 
 ### 🆔 Identity & DNS <a id="identity--dns"></a>
 
-- **[Ergonames](https://ergonames.com/)** – decentralized naming service *(Paused)*. [GitHub Org](https://github.com/ergonames) | [Contracts](https://github.com/ergonames/ergonames/tree/master/src/main/scala) | [Rust SDK](https://github.com/ergonames/sdk/tree/master/rust)
+- [ErgoNames](https://ergonames.com/) – decentralized domain name service *(Live)*. [API Repo](https://github.com/ergonames/ErgoNames.Api) *(Active)*
 - [Ergo Reputation System](https://reputation-systems.github.io/) – on-chain reputation system *(Beta)*. [GitHub Org](https://github.com/sigma-rps) | [Library](https://github.com/reputation-systems/reputation-system-lib) | [Forum](https://www.ergoforum.org/t/reputation-system/4782) *(Active)*
 
 ### 🤫 Privacy <a id="privacy"></a>
@@ -455,6 +461,7 @@
 - [NOMP (ergo-nomp)](https://github.com/btclinux/ergo-nomp) – Node Open Mining Portal adapted for Ergo.
 - [Node Stratum Pool](https://github.com/vorujack/node-stratum-pool) – Node.js stratum pool server. [`JS`]
 - [ergo-mining-pool (MGpai)](https://github.com/mgpai22/ergo-mining-pool) – open source mining pool. [`Go`?]
+- [Ergopool.io Software](https://github.com/ergopool-io) – components for running an Ergo mining pool (Accounting, API, Frontend, Proxy). [`Go`, `JS/TS`]
 
 ### 💻 Software <a id="software"></a>
 
@@ -486,7 +493,8 @@
 
 ### 🔐 Hardware Wallet Support <a id="hardware-wallet-support"></a>
 
-- 🥇 **[Ledger App for Ergo](https://github.com/tesseract-one/ledger-app-ergo)** *(Live)* [`C`] *(Active)*
+- 🥇 **[Ledger App for Ergo (Official)](https://github.com/LedgerHQ/app-ergo)** *(Live)* [`C`] *(Active)*
+- [Ledger App for Ergo (Tesseract Fork)](https://github.com/tesseract-one/ledger-app-ergo) – community-maintained fork. [`C`] *(Active)*
   - [LedgerJS Bindings](https://github.com/anon-br/ledgerjs-hw-app-ergo) [`JS`]
   - [Ledger4j Bindings](https://github.com/aionnetwork/ledger4j) [`Java`]
   - [Ledger Core Lib](https://github.com/LedgerHQ/lib-ledger-core) [`C++`]
@@ -520,7 +528,7 @@
 - [EIP-38: Partial Voting for Miners (Draft)](https://github.com/WilfordGrimley/eip38PartialVoting)
 - [EIP-39: Just-In-Time Costing (JITC)](https://github.com/ergoplatform/eips/blob/master/eip-0039.md)
 - [EIP-41: Stealth Addresses (Draft)](https://raw.githubusercontent.com/ergoplatform/eips/d21280977f2c21dc733632c48c98d0f614bc6123/eip-0041.md)
-- [EIP-43: Reduced Transaction](https://github.com/ergoplatform/eips/pull/91)
+- [EIP-43: Reduced Transaction](https://github.com/ergoplatform/eips/pull/91) – [Implementation Example](https://github.com/zkastn/reduced-transactions)
 - [EIP-44: Arbitrary Data Signing](https://github.com/ergoplatform/eips/pull/92)
 - [EIP-45: Storage Rent Redistribution (Draft)](https://github.com/ergoplatform/eips/pull/93)
 - [EIP-46: Authentication Message Signing (Draft)](https://github.com/ergoplatform/eips/blob/2de4ea0deff12a276f74df57ef3a14dab2c5dfb8/eip-0046.md)
@@ -535,7 +543,7 @@
 > See also: [Explorer Overview on ErgoDocs](https://docs.ergoplatform.com/dev/stack/explorer/)
 
 - 🥇 **[Ergo Explorer (Official)](https://explorer.ergoplatform.com/)** – canonical chain explorer. [Frontend](https://github.com/ergoplatform/explorer-frontend) | [Backend](https://github.com/ergoplatform/explorer-backend)
-- [Sigmaspace](https://sigmaspace.io/) – alternative explorer with tools & charts.
+- [Sigmaspace](https://sigmaspace.io/) – alternative explorer with tools & charts. [GitHub](https://github.com/pulsarz/sigmaexplorer)
 - [erg-explorer](https://github.com/AcoSmrkas/ErgExplorer) – community-built explorer. [`JS/TS`] [Telegram](https://t.me/ErgExplorer)
 - [uexplorer](https://github.com/pragmaxim/ergo-uexplorer) – minimalist UTXO set explorer. [`Scala`]
 - [Indexed Node Explorer](https://github.com/Luivatra/indexed-node-explorer) – simple UI for indexed node. [`JS/TS`]
@@ -567,6 +575,7 @@
 - [Developer Activity (Artemis)](https://app.artemis.xyz/developer-activity?ecosystemValue=Ergo) – tracks dev activity via GitHub commits.
 - [Developer Activity (DeveloperReport)](https://www.developerreport.com/ecosystems/ergo) – alternative dev activity view.
 - [Ergo Node Metrics Report Notebook](https://github.com/ergoplatform/ergo/blob/master/metrics/Report.ipynb) – Jupyter notebook for node performance metrics. [`Python`]
+- [Ergo Explorer Queries (FlyingPig)](https://github.com/FlyingPig69/Ergo_Explorer_Queries) – SQL queries for analyzing explorer data. [`SQL`]
 
 ---
 
@@ -650,6 +659,7 @@
 - [Stealth Address Docs (Aragogi)](https://github.com/aragogi/Stealth-doc) – stealth address scanner/mixer docs.
 - [Test Vectors - Transaction Serialization](https://github.com/ergoplatform/ergo-test-vectors/blob/master/src/test/resources/vector/tx_ser.json) – TX serialization test examples.
 - [Test Vectors - Signature Scheme](https://github.com/ergoplatform/ergo-test-vectors/blob/master/src/test/resources/vector/sig.json) – signature scheme test examples.
+- [Difficulty Algorithms (Zawy)](https://github.com/zawy12/difficulty-algorithms) – research and analysis of difficulty adjustment algorithms.
 - **[Scorex](https://github.com/scorexfoundation/scorex)** – modular blockchain framework that *underpins* Ergo's core node implementation. [`Scala`]
 
 
