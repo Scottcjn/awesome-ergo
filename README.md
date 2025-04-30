@@ -108,6 +108,7 @@ A curated list of awesome projects, tools, libraries, and resources for the Ergo
     *   [Multi-Sig Coordination Server](https://github.com/minotaur-ergo/Minotaur-Signing-Server) / [Alternative](https://github.com/lazypinkpatrick/cosigning-server): Backend server for coordinating multi-signature operations.
 *   [Ergo Mobile Wallet (Android)](https://play.google.com/store/apps/details?id=org.ergoplatform.android): Official Android wallet. [GitHub](https://github.com/ergoplatform/ergo-wallet-app) [`Kotlin`] [Status: Active] [Live]
 *   [Ergo Mobile Wallet (iOS)](https://apps.apple.com/us/app/ergo-wallet-app/id1569044501): Official iOS wallet. [GitHub](https://github.com/ergoplatform/ergo-wallet-app) [`Swift`] [Status: Active] [Live]
+*   [Ergo Light Client (iOS Beta)](https://github.com/bjenkinsgit/ErgoIOSLiteClient): Community iOS light client (Requires a full node). [`Swift`] [Status: Beta]
 
 ### Hardware Wallet Support
 
@@ -122,6 +123,7 @@ A curated list of awesome projects, tools, libraries, and resources for the Ergo
 *   [Yoroi Ergo Wallet Recovery Tool](https://github.com/satsen/yoroi-ergo-wallet-recover): Tool to recover funds from old Yoroi Ergo wallets. [`Java`]
 *   [Stealth Address Generator](https://ergomixer.github.io/stealth/): Web tool for generating stealth addresses compatible with ErgoMixer.
 *   [Cold Wallet Setup Guide (Wiki)](https://github.com/ergoplatform/ergo-wallet-app/wiki/Cold-wallet): Guide on setting up and using cold wallets with the official mobile apps.
+*   [Ergo Poor Man's Wallet (EPMW)](https://github.com/epmw/epmw): DIY ultra-low-cost hardware wallet solution (ErgoHack VII). [`Hardware`]
 
 ## SDKs & Libraries
 
@@ -166,6 +168,8 @@ A curated list of awesome projects, tools, libraries, and resources for the Ergo
 *   [GetBlok Plasma](https://github.com/GetBlok-io/GetBlok-Plasma): Library built on AppKit to simplify integrating AVL Trees (Plasma L2 scaling) into off-chain code. [`Scala`]
 *   [sigmajs-crypto-facade](https://github.com/anon-br/sigmajs-crypto-facade): Project aiming to replace BouncyCastle dependencies in SigmaJS builds. [`JS/TS`]
 *   [ScalaSigmaParticle](https://github.com/dzyphr/ScalaSigmaParticle): Framework based on Ergpy for cross-chain pipelines. [`Python`]
+*   [dApp Connector React Package (NightOwl)](https://github.com/nightowlcasino/dApp-connector-react-package): React package for EIP-12 dApp Connector. [`JS/TS`, `React`]
+*   [Ergo SDK JS (ErgoLabs)](https://github.com/ergolabs/ergo-sdk-js): Community JS SDK using Wasm bindings. [`JS/TS`, `Wasm`]
 
 ## Development Tooling
 
@@ -182,6 +186,7 @@ A curated list of awesome projects, tools, libraries, and resources for the Ergo
 *   [ergo-castanet](https://github.com/iandebeer/ergo-castanet): Tooling for ErgoScript development using Dhall for configuration. [`Dhall`, `Scala`]
 *   [Plutomonkey](https://wallet.plutomonkey.com/): Web tool for compiling ErgoScript (and Plutus).
 *   [Ergo Playground (Scastie)](https://scastie.scala-lang.org/ergoplatform): Online Scala/ErgoScript playground (used in ergoscript-by-example).
+*   [KioskWeb](https://github.com/scalahub/KioskWeb): Web interface for the Kiosk framework. [`Scala`, `JS/TS`?]
 
 ### Frameworks & Templates
 
@@ -197,6 +202,7 @@ A curated list of awesome projects, tools, libraries, and resources for the Ergo
 *   [ergo-play-boilerplate](https://github.com/kii-dot/ergo-play-boilerplate): Boilerplate for Scala Play Ergo projects. [`Scala`]
 *   [ergo-basic-template](https://github.com/ERGnomes/ergo-basic-template): Basic React template for Ergo dApps. [`JS/TS`, `React`]
 *   [Edge](https://github.com/Ergo-Lend/edge): Ergo Development Generics Elements (used by ErgoLend). [`Scala`]
+*   [Mosaik Web Executor](https://github.com/MrStahlfelge/mosaik-kt-js): Browser-based executor for the Mosaik UI framework. [`Kotlin`, `JS`]
 
 ### Utilities & CLI
 
@@ -221,8 +227,13 @@ A curated list of awesome projects, tools, libraries, and resources for the Ergo
 *   [tERGminal](https://github.com/ladopixel/tERGminal): Interact with Ergo from the terminal. [`Python`]
 *   [On-Chain Notifications Service](https://github.com/ergopad/onchain-notifications-service): Scala service for transaction monitoring and event tracking. [`Scala`]
 *   [Ergo-node-TUI-installer](https://github.com/Itaggergaard/Ergo-node-TUI-installer): Terminal User Interface installer for Ergo nodes. [`Shell`]
-*   [Ergo Synced Node](https://github.com/mgpai22/ergo-synced-node): Helper for setting up a synced node (Mainnet & Testnet). [`Python`, `Shell`]
-*   [Ergo Portable](https://github.com/ross-weir/ergo-portable): Scripts for a portable Ergo node setup. [`Shell`]
+*   [Ergo Synced Node Helper](https://github.com/mgpai22/ergo-synced-node): Helper scripts for setting up a synced node (Mainnet & Testnet). [`Python`, `Shell`]
+*   [Ergo Portable Node](https://github.com/ross-weir/ergo-portable): Scripts for a portable Ergo node setup. [`Shell`]
+*   [Ergo Nix Toolkit](https://github.com/ergoplatform/ergo-nix): Nix toolkit for Ergo packages and services. [`Nix`]
+*   [Ergo Bootstrap](https://github.com/ergoplatform/ergo-bootstrap): Deployment tool using ergo-nix for cluster setup (Node, Explorer, etc.). [`Nix`, `Shell`]
+*   [Ergo RPI Scripts](https://github.com/Eeysirhc/ergo-rpi): Scripts/guide for RPi node setup. [`Shell`?]
+*   [ErgoScripts (Misc)](https://github.com/glasgowm148/ergoscripts): Miscellaneous community scripts (e.g., nginx config for public node). [`Shell`, `Other`]
+*   [ErgoNodeAndroid (Termux)](https://github.com/rustinmyeye/ErgoNodeAndroid): One-click Android node setup app using Termux. [`Shell`, `Android`]
 
 ### Node Interaction & APIs
 
@@ -282,6 +293,14 @@ A curated list of awesome projects, tools, libraries, and resources for the Ergo
 *   [AppKit by Example (ApexTheory)](https://github.com/ApexTheory/appkit-by-example): Example usage of AppKit. [`Scala`]
 *   [Go Ergo Example](https://github.com/ross-weir/go-ergo-example): Example using Go with C bindings. [`Go`, `C`]
 *   [Ergo Stealth Address Example](https://github.com/ross-weir/ergo-stealth-address-example): Example implementation of stealth addresses. [`JS/TS`]
+*   [Ergo Playground Scenarios](https://github.com/jaysee260/ergo-playground): Collection of miscellaneous scenarios implemented on Ergo. [`Scala`?]
+*   [ErgoPay Server Example](https://github.com/MrStahlfelge/ergopay-server-example): Example backend server demonstrating ErgoPay. [`Java`, `Spring`]
+*   [Ergo Android Example App](https://github.com/aslesarenko/ergo-android): Example Android application demonstrating AppKit usage. [`Java`, `Kotlin`]
+*   [Mosaik AgeUSD Demo](https://github.com/MrStahlfelge/mosaik-ageusddemo): Mosaik UI example for AgeUSD. [`Kotlin`?]
+*   [Mosaik Tutorial Series App](https://github.com/MrStahlfelge/mosaik-tutorial-series): Example app accompanying the Mosaik tutorial. [`Kotlin`]
+*   [Mosaik Token Burn Demo](https://github.com/MrStahlfelge/mosaik-demo-tokenburn): Mosaik demo UI for burning tokens with ErgoPay. [`Kotlin`]
+*   [Mosaik NFT Marketplace Example](https://github.com/MrStahlfelge/mosaiknftmarketplace): Example Mosaik UI for an NFT marketplace. [`Kotlin`?]
+*   [ErgoPay Frontend Example](https://github.com/MrStahlfelge/ergopay-frontend-example): Example frontend UI demonstrating ErgoPay integration. [`JS/TS`?]
 
 ## DeFi & dApps
 
@@ -351,6 +370,9 @@ A curated list of awesome projects, tools, libraries, and resources for the Ergo
 *   [Lithos Protocol](https://lithosprotocol.org/): DeFi protocol aiming to bring liquidity to ERG. [GitHub Org](https://github.com/Lithos-Protocol) | [LitePaper](https://github.com/Lithos-Protocol/LitePaper) [Status: Active]
 *   [Off The Grid](https://github.com/Telefragged/off-the-grid): Decentralized grid trading bot. [`Rust`]
 *   [Sigmarand](https://github.com/noob77777/ergo-randgen): Commit-Reveal Random Number Generation scheme. [`Scala`]
+*   [Community Liquidity Bootstrap](https://github.com/AcoSmrkas/community-liquidity-bootstrap): Platform for community liquidity bootstrapping (ErgoHack VII). [`JS/TS`?]
+*   [Perma Ergo](https://github.com/firashebili/permergo-microfinancing-dao): RealFi micro-finance project for farmers (ErgoHack VI).
+*   [DumDumDum](https://github.com/kii-dot/dumdumdum): Decentralised, on-chain Twitter alternative using NFTs (ErgoHack V). [`Scala`?]
 
 ## NFT Ecosystem
 
@@ -444,6 +466,7 @@ A curated list of awesome projects, tools, libraries, and resources for the Ergo
 *   [EIP-46: Authentication Message Signing (Draft)](https://github.com/ergoplatform/eips/blob/2de4ea0deff12a276f74df57ef3a14dab2c5dfb8/eip-0046.md)
 *   [EIP-47: Re-emission Contract Standard (Draft)](https://github.com/ergoplatform/eips/blob/0836dd1eca323c6b5fd6b5172c27a465bd4449cd/eip-0047.md)
 *   [EIP-50: Context Extension Clarification (Draft)](https://github.com/ergoplatform/eips/blob/a24fc414abbc10e6ee59f878b280d9ecc725e10c/eip-0050.md)
+*   [SigmaUSD Improvement Proposals (SIPs)](https://github.com/ergoplatform/sips): Repository for proposals related to the SigmaUSD protocol.
 
 ## Explorers & Dashboards
 
@@ -539,6 +562,8 @@ A curated list of awesome projects, tools, libraries, and resources for the Ergo
 *   [SLIP-0044 : Registered coin types for BIP-0044](https://github.com/satoshilabs/slips/blob/master/slip-0044.md): Ergo is registered with coin type `429`.
 *   [Ergo Subblocks Paper](https://raw.githubusercontent.com/ergoplatform/ergo/e15dcd0b4ca0a72d32d97228f010d813540de39d/papers/subblocks/subblocks.md): Research paper on the sub-block concept for sidechains/scalability.
 *   [Ergohack Sidechain Whitepaper](https://github.com/ross-weir/ergohack-sidechain/blob/main/docs/whitepaper/sidechain.pdf): Whitepaper for the Ergohack sidechain proof-of-concept.
+*   [Ergohack Sidechain Repo](https://github.com/ross-weir/ergohack-sidechain): Ergohack sidechain proof-of-concept repo. [`Rust`?]
+*   [Stealth Address Docs (Aragogi)](https://github.com/aragogi/Stealth-doc): Documentation for a stealth address scanner/mixer concept.
 
 ### Utilities
 
@@ -547,4 +572,3 @@ A curated list of awesome projects, tools, libraries, and resources for the Ergo
 *   [ErgoToolsBot (Telegram)](https://t.me/ergotoolsbot): Telegram bot providing various Ergo utilities. [GitHub](https://github.com/ladopixel/ErgoToolsBot) [`Python`]
 *   [Matterbridge](https://github.com/42wim/matterbridge): Software used for bridging Ergo community chats between Discord and Telegram.
 *   [SharkNet](https://github.com/The-Last-Byte-Bar/SharkNet): Community-curated dataset of ErgoScript examples for training AI/ML models for developer tooling.
-
