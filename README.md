@@ -48,7 +48,6 @@
 - 💸 [DeFi & dApps](#defi--dapps)
   - 💹 [DEXs & Swaps](#dexs--swaps)
   - 🏦 [Stablecoins & Lending](#stablecoins--lending)
-  - 🚀 [Launchpads](#launchpads)
   - 🆔 [Identity & DNS](#identity--dns)
   - 🤫 [Privacy](#privacy)
   - 🎮 [Gaming & Metaverse](#gaming--metaverse)
@@ -374,7 +373,7 @@
 - [Hodlcoin Contracts](https://github.com/lucagdangelo/hodlcoin-contracts) – contracts for Hodlcoin concept. *(Active)*
 - [Gluon](https://github.com/DjedAlliance) – cross-chain stablecoin infrastructure (Djed based). [Twitter](https://twitter.com/DjedAlliance) *(In Development)*
 
-### 🚀 Launchpads <a id="launchpads"></a>
+
 
 ### 🆔 Identity & DNS <a id="identity--dns"></a>
 
