@@ -462,7 +462,6 @@
 - [ObolFlip](https://github.com/ObolFlip) – Decentralized CoinFlip betting game example. [Client](https://github.com/ObolFlip/obolflip-client) *(Example)*
 - [Comet Lottery](https://github.com/mgpai22/comet-lottery) – Smart contracts and off-chain bot for running a lottery dApp. [`Scala`] *(Active?)*
 - [Quid Games (ErgoHack)](https://github.com/hypo10use/quid-games) – Gaming dApp prototype developed during an ErgoHack event. [`Angular`, `TS`] *(Community, ErgoHack)*
-- [Inferno Black](https://github.com/c8e4d2a/inferno.black) - Gaming project? [`TS`?] *(Community)*
 
 ### 🏛️ DAO Frameworks <a id="dao-frameworks"></a>
 
