@@ -155,6 +155,8 @@
 - [BouncyCastle JS](https://github.com/aslesarenko/bouncycastle-js) – BouncyCastle compiled for JS. [`JS`]
 - [Scorex Crypto AVLTree](https://github.com/knizhnik/scorex_crypto_avltree) – Rust AVL Tree implementation. [Paper](https://github.com/knizhnik/scorex_crypto_avltree/blob/main/crypto_avltree.md) [`Rust`]
 - [AVLIODB](https://github.com/ScorexFoundation/AVLIODB) – Authenticated dictionary implementation based on AVL+ trees (used in Ergo). [`Scala`]
+- [Scorex ProofOfStake Example](https://github.com/ScorexFoundation/ProofOfStake) – example PoS implementation using Scorex. [`Scala`]
+- [Scorex SimpleTransactions Example](https://github.com/ScorexFoundation/SimpleTransactions) – simple transaction example using Scorex. [`Scala`]
 
 ### 🔗 Language Bindings & Wrappers
 
@@ -219,6 +221,7 @@
 - [Edge](https://github.com/Ergo-Lend/edge) – Ergo Development Generics Elements (by ErgoLend). [`Scala`]
 - [Mosaik Web Executor](https://github.com/MrStahlfelge/mosaik-kt-js) – browser executor for Mosaik. [`Kotlin`, `JS`]
 - [Headless dApp Framework](https://github.com/ergoplatform/ergo-headless-dapp-framework) – Rust framework for portable off-chain logic (EIP-6). [`Rust`]
+- [Terahertz Starter](https://github.com/nn-dmt/terahertz-starter) – Framework/template for building dApps. [`JS/TS`?]
 
 ### 📄 Templates <a id="templates"></a>
 
@@ -261,6 +264,8 @@
 - [ErgoScripts (Misc)](https://github.com/glasgowm148/ergoscripts) – misc community scripts (e.g., nginx config). [`Shell`, `Other`]
 - [ErgoNodeAndroid (Termux)](https://github.com/rustinmyeye/ErgoNodeAndroid) – one-click Android node setup app. [`Shell`, `Android`]
 - [ErgoTool](https://github.com/aslesarenko/ergo-tool) – CLI for blockchain interaction via AppKit. [`Scala`]
+- [ErgoSphere](https://github.com/jellymlg/ErgoSphere) – Collection of tools/utilities. [`Scala`?]
+- [Ergo Meta](https://github.com/nautls/ergo-meta) – Metadata service for Nautilus wallet. [`JS/TS`]
 
 ### ⌨️ CLI Tools <a id="cli-tools"></a>
 
@@ -352,6 +357,8 @@
 - [Mosaik Token Burn Demo](https://github.com/MrStahlfelge/mosaik-demo-tokenburn) – Mosaik demo UI for burning tokens. [`Kotlin`]
 - [Mosaik NFT Marketplace Example](https://github.com/MrStahlfelge/mosaiknftmarketplace) – example Mosaik UI for NFT marketplace. [`Kotlin`?]
 - [ErgoPay Frontend Example](https://github.com/MrStahlfelge/ergopay-frontend-example) – example ErgoPay frontend UI. [`JS/TS`?]
+- [Scalahub AgeUSD Example](https://github.com/scalahub/AgeUSD) – Example implementation of AgeUSD protocol. [`Scala`]
+- [Scalahub Oracle Pool Example](https://github.com/scalahub/OraclePool) – Example implementation of Oracle Pools V1. [`Scala`]
 
 ---
 
@@ -385,6 +392,7 @@
 
 - [ErgoNames](https://ergonames.com/) – decentralized domain name service *(Live)*. [API Repo](https://github.com/ergonames/ErgoNames.Api) *(Active)*
 - [Ergo Reputation System](https://reputation-systems.github.io/) – on-chain reputation system *(Beta)*. [GitHub Org](https://github.com/sigma-rps) | [Library](https://github.com/reputation-systems/reputation-system-lib) | [Forum](https://www.ergoforum.org/t/reputation-system/4782) *(Active)*
+- [ErgoDNS Frontend (ErgoHack)](https://github.com/jaythiya/ergodns-frontend) – Frontend concept for Ergo domain names. [`JS/TS`] *(Inactive/Concept)*
 
 ### 🤫 Privacy <a id="privacy"></a>
 
@@ -395,6 +403,7 @@
 
 - [BlitzTCG](https://blitz-tcg.com/) – Trading Card Game *(Beta)*. *(Active)*
 - [CyberVerse](https://cyberverseteam.itch.io/cyberverse) – Metaverse/Gaming project *(Live)*. [Telegram](https://t.me/CyberVersegame) *(Active)*
+- [Comet Community](https://github.com/Koutelier/CometCommunity) – community project with various dApps. [Website](https://github.com/Koutelier/CometGag-Webiste) *(Active?)*
 - [ObolFlip](https://github.com/ObolFlip) – decentralized CoinFlip betting example. [Client](https://github.com/ObolFlip/obolflip-client)
 - [Comet Lottery](https://github.com/mgpai22/comet-lottery) – lottery dApp contracts & bot. [`Scala`] *(Active?)*
 
@@ -414,7 +423,7 @@
 - [Benefaction Platform](https://github.com/StabilityNexus/BenefactionPlatform-Ergo) – charity/donation platform prototype. *(Development)*
 - [Moria Finance](https://github.com/Moria-Finance) – ERG derivatives project. *(Development)*
 - [ChainCash](https://github.com/ChainCashLabs) – decentralized monetary system. [Whitepaper](https://github.com/kushti/chaincash/blob/master/paper/chaincash.pdf) | [Server](https://github.com/ChainCashLabs/chaincash-rs) | [Contracts](https://github.com/ChainCashLabs/chaincash/tree/master/contracts) *(Active)*
-- [Sigma Subscriptions](https://github.com/cornbelt-dev/sigma-subscriptions) – subscription service framework. *(Paused?)*
+- [Sigma Subscriptions](https://github.com/cornbelt-dev/sigma-subscriptions) – subscription service framework. [Manager UI](https://github.com/cornbelt-dev/sigma-subscriptions-manager) *(Paused?)*
 - [ErgoWell](https://github.com/mhssamadani/ErgoWell) – crowdfunding/investment platform concept. [`JS/TS`] *(Inactive/Concept)*
 - [Lithos Protocol](https://lithosprotocol.org/) – DeFi protocol for ERG liquidity. [GitHub Org](https://github.com/Lithos-Protocol) | [LitePaper](https://github.com/Lithos-Protocol/LitePaper) *(Active)*
 - [Off The Grid](https://github.com/Telefragged/off-the-grid) – decentralized grid trading bot. [`Rust`]
@@ -422,6 +431,9 @@
 - [Community Liquidity Bootstrap](https://github.com/AcoSmrkas/community-liquidity-bootstrap) – platform from ErgoHack VII. [`JS/TS`?]
 - [Perma Ergo](https://github.com/firashebili/permergo-microfinancing-dao) – RealFi micro-finance project (ErgoHack VI).
 - [DumDumDum](https://github.com/kii-dot/dumdumdum) – on-chain Twitter alternative (ErgoHack V). [`Scala`?]
+- [Ergo Index](https://github.com/ergo-index) – decentralized indexing service (ErgoHack VII). [Backend](https://github.com/ergo-index/ergo-index-backend) | [Python Backend](https://github.com/ergo-index/ergo-index-backend-python) | [Contracts](https://github.com/ergo-index/ergo-index-contracts) | [Frontend](https://github.com/ergo-index/ergo-index-frontend) *(Development)*
+- [SigmaStamp](https://sigmastamp.com/) – document timestamping service (ErgoHack VII). [GitHub Org](https://github.com/sigmastamp) | [Docs](https://github.com/sigmastamp/docs) | [Frontend](https://github.com/sigmastamp/sigmastamp-frontend) *(Development)*
+- [ErgoHack Dashboard Project](https://github.com/Ergohack-Dashboard-Project) – Dashboard concept from Ergohack. *(Inactive/Concept)*
 
 ---
 
@@ -445,6 +457,7 @@
 
 ### 🗿 NFT Projects <a id="nft-projects"></a>
 
+- [ErgoSapiens](https://ergosapiens.com/) – NFT collection & community project *(Live)*. [GitHub](https://github.com/mgpai22/ergosapiens) | [Payment Portal](https://github.com/mgpai22/ergosapiens-payment-portal) *(Active)*
 - [Auction Coin](https://auctioncoin.app/) – auction platform using NFTs *(Live)*. [GitHub Org](https://github.com/orgs/Auction-Coin/repositories) | [Contracts](https://github.com/Auction-Coin/contracts) *(Active)*
 - [Blobstopia](https://github.com/ThierryM1212/blobs-topia/) – completed generative NFT project/game. [Release](https://github.com/ThierryM1212/blobs-topia/releases/tag/v1.1.0) *(Done)*
 
@@ -484,6 +497,8 @@
 - [Miner Rights Protocol](https://github.com/The-Last-Byte-Bar/Miner-Rights-Protocol) – concept for rights-based token distribution.
   - [Token Flight](https://github.com/The-Last-Byte-Bar/Token-Flight) – related implementation.
   - [Token Flight Bot](https://github.com/The-Last-Byte-Bar/Token-Flight-Bot) – bot for Token Flight.
+- [Sigmanaut Mining Pool UI](https://github.com/marctheshark3/sigmanaut-mining-pool-ui) – community UI for Sigmanauts pool. [`JS/TS`]
+- [Ergo CYTI Miner](https://github.com/Telefragged/ergo-cyti-miner) – miner for CYTI NFT minting contract. [`Rust`]
 
 ### 🧠 Smart Pooling <a id="smart-pooling"></a>
 
@@ -576,6 +591,7 @@
 - [Developer Activity (DeveloperReport)](https://www.developerreport.com/ecosystems/ergo) – alternative dev activity view.
 - [Ergo Node Metrics Report Notebook](https://github.com/ergoplatform/ergo/blob/master/metrics/Report.ipynb) – Jupyter notebook for node performance metrics. [`Python`]
 - [Ergo Explorer Queries (FlyingPig)](https://github.com/FlyingPig69/Ergo_Explorer_Queries) – SQL queries for analyzing explorer data. [`SQL`]
+- [ergo-status](https://github.com/bdkent/ergo-status) – community-run network status dashboard. [`JS/TS`?]
 
 ---
 
@@ -597,6 +613,7 @@
 - [Ergo Foundation Website](https://ergofoundation.org/) – info about the Ergo Foundation.
 - [Ergo Platform GitHub Discussions](https://github.com/ergoplatform/ergo/discussions) – forum for node dev/technical topics.
 - [ergohack.io](https://ergohack.io/resources) – resource hub for ErgoHack events.
+- [ErgoNation](https://github.com/nirojan95/ergonation) – community project/news site. [`JS/TS`]
 
 ### 💰 Contribution Platforms <a id="contribution-platforms"></a>
 
