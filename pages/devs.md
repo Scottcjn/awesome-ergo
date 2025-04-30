@@ -1,32 +1,40 @@
 - [Getting Started](#getting-started)
-- [Appkit](#appkit)
+    - [Bounties](#bounties)
+    - [Resources](#resources)
+    - [ERGOHACK](#ergohack)
+- [Libraries](#libraries)
+    - [Appkit](#appkit)
 - [ErgoScript](#ergoscript)
 - [Languages](#languages)
   - [Scala](#scala)
   - [Rust](#rust)
   - [JS/TS](#jsts)
-  - [C](#c)
+  - [C#](#c)
   - [Other Languages](#other-languages)
-- [Resources](#resources)
+- [Resources](#resources-1)
 
 # Getting Started
 
 For most developers, [Appkit](#appkit) is the best entry point unless you're wanting to dive straight into [ErgoScript](#ergoscript) smart-contract development.
 
-- Make sure to check out the [Grow Ergo](https://github.com/ergoplatform/grow-ergo/) repository or the `#jobs-and-bounties` channel on [Discord](https://discordapp.com/invite/gYrVrjS) to see developer bounties available on Ergo.
-- There are grants available from both [DarkFund0 (privacy-focus)](https://github.com/ergoplatform/grow-ergo/issues/1) or upto $20k per grant from the ['Good Whales Grant Fund'](https://github.com/ergoplatform/grow-ergo/issues/13)
+### Bounties
 
 Start completing bounties to refine your skills - or submit a proposal directly to the [Ergo Foundation](https://ergoplatform.org/en/foundation/). Current job openings can be found at [ergoplatform.org/en/careers/](https://ergoplatform.org/en/careers/)
 
+- Make sure to check out the [Ergo Bounties](https://github.com/ErgoDevs/Ergo-Bounties) repository to see developer bounties available on Ergo.
+- There are grants available from both [DarkFund0 (privacy-focus)](https://github.com/ergoplatform/grow-ergo/issues/1) 
 
-
-**Resources**
+### Resources
 - See [wallets.md](wallets.md) for developer resources within that area.
 - See [apps.md](apps.md) for developer resources relating to any existing dApps built ontop Ergo.
 - [docs.md](docs.md) for related whitepapers and Ergo Improvement Proposals (EIPs)
 - [`#dev-support`](https://discord.gg/dTphd7uG) on Discord.
 
-**ERGOHACK** 
+**Walthroughs**
+- [Starting with Appkit on Gradle projects](https://github.com/ergoplatform/ergo-appkit/wiki/Tutorial-starting-with-Appkit-on-Gradle-projects)
+
+
+### ERGOHACK
 
 See overviews of the past two ERGOHACKs below and start preparing for ERGOHACK III!
 
@@ -38,15 +46,28 @@ Join the [Discord](https://discord.gg/qxdrHM2eHv) server to participate.
 
 See [apps.md](apps.md) for associated repositories from previous ERGOHACKs
 
-# Appkit
+# Libraries
+
+JDE is similar to Ergo-AppKit and the Headless dApp Framework (HDF) in that all three are tools to interact with the Ergo blockchain. Developers can use these tools to read data from the blockchain, compute using that data and optionally create transactions to be broadcast. Each tool requires the developer to "program" in some language.
+
+Users of AppKit will usually write Scala code (although AppKit supports many other languages). HDF users will need to write Rust code. JDE users will have to write JSON, which is arguably the easiest to learn of the three. 
+
+- [Ergo Headless dApp Framework](https://github.com/ergoplatform/ergo-headless-dapp-framework)
+- [Ergo JDE](https://github.com/ergoplatform/ergo-jde)
+- [Appkit: A Library for Polyglot Development of Ergo Applications](https://github.com/aslesarenko/ergo-appkit)
+
+### Appkit
+
+Appkit provides methods for the following tasks:
+
+- Fetch data from Ergo Explorer API
+- Interact with Ergo Node, both public and private methods
+- Build transactions and sign them
+- Helper methods to handle cryptographics like calculating PK addresses from secrets
 
 [Appkit: A Library for Polyglot Development of Ergo Applications](https://github.com/aslesarenko/ergo-appkit) has an idiomatic Java API and is written in Java/Scala. It is a thin wrapper around core components provided by the ErgoScript interpreter and Ergo protocol implementations which are written in Scala. It is published on [maven repository](https://mvnrepository.com/artifact/org.ergoplatform/ergo-appkit) and cross compiled to both Java 7 and Java 8+ jars.
 
 Using Appkit Ergo applications can be written in one of the languages supported by GraalVM (i.e. Java, JavaScript, C/C++, Python, Ruby, R) and using this library applications can communicate with Ergo nodes via unified API and programming model provided by Appkit. In addition Appkit based Ergo applications can be compiled into native code using native-image ahead of time compiler and then executed without Java VM with very fast startup time and lower runtime memory overhead compared to a Java VM. This is attractive option for high-performance low-latency microservices.
-
-**GraalVM**
-
-The Appkit library is also compatible with [GraalVM](https://www.graalvm.org/) - a novel next generation approach to implement software which is reusable across several programming languages and execution environments. For example if Node.js application is run on GraalVM, then it can use Appkit to interact with Ergo Blockchain.
 
 
 **Tutorials**
