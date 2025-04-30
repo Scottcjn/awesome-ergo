@@ -247,6 +247,9 @@ A curated list of awesome projects, tools, libraries, and resources for the Ergo
 *   [ergo-node-zmqpub](https://github.com/cruxfinance/ergo-node-zmqpub): Publishes Ergo node events via ZeroMQ for real-time applications. [`Scala`]
 *   [Pragmaxim Chain Indexer (Ergo)](https://github.com/pragmaxim-com/chain-indexer/tree/ergo-boxes): Custom indexer implementation. [`Scala`]
 *   [Ergonnection](https://github.com/Satergo/Ergonnection): P2P networking library for Ergo. [`Java`]
+*   [General API Docs](https://api.ergoplatform.com/api/v1/docs/): General overview of Node/Explorer APIs.
+    *   [Node API Specification (OpenAPI)](https://github.com/ergoplatform/ergo/blob/master/src/main/resources/api/openapi.yaml)
+    *   [Explorer API v1 Specification (OpenAPI)](https://github.com/ergoplatform/explorer-backend/blob/master/modules/explorer-api/src/main/resources/openapi.yaml) *(Note: See also specific explorer backends for potentially different API versions)*
 *   [Ergonode Spyder](https://github.com/chriswill/ergonode-spyder): Network spider to capture node information for analytics. [`C#`]
 *   [Ergo Blockchain Scanner (Aragogi)](https://github.com/aragogi/scanner): Alternative blockchain scanner implementation. [`Scala`]
 
@@ -480,6 +483,7 @@ A curated list of awesome projects, tools, libraries, and resources for the Ergo
 *   [Paizo Mining Vote Simulator](https://deadit.github.io/paizo/): Tool for simulating miner voting based on EIP-27. [GitHub](https://github.com/deadit/paizo)
 *   [ErgCube](https://ergcube.com/): Community dashboard and information site.
 *   [Testnet Explorer](https://testnet.ergoplatform.com/): Explorer for the Ergo test network.
+    *   [Using Ergo Testnet (Wiki)](https://github.com/ergoplatform/ergo/wiki/Ergo-Testnet): Guide on how to use the test network.
 *   [Testnet Faucet](https://testnet.ergofaucet.org/): Faucet for obtaining testnet ERG.
 
 ## Analytics
@@ -515,6 +519,7 @@ A curated list of awesome projects, tools, libraries, and resources for the Ergo
 *   [Ergo Platform Wiki](https://github.com/ergoplatform/ergo/wiki): Official GitHub wiki for the node software.
 *   [Ergo Foundation Website](https://ergofoundation.org/): Information about the Ergo Foundation.
 *   [Ergo Platform GitHub Discussions](https://github.com/ergoplatform/ergo/discussions): Forum for discussing node development and technical topics.
+*   [ergohack.io](https://ergohack.io/resources): Resource hub focused on ErgoHack events.
 
 ### Contribution Platforms
 
@@ -531,6 +536,15 @@ A curated list of awesome projects, tools, libraries, and resources for the Ergo
 *   [Zack Balbin's Ergo Tutorials](https://github.com/zackbalbin/ErgoTutorials): Collection of Scala tutorials for Ergo. [`Scala`]
 *   [Ergo Community YouTube](https://www.youtube.com/@ErgoPlatform): Official YouTube channel with AMAs, tutorials, presentations.
 *   [ErgoFoundation YouTube](https://www.youtube.com/@ErgoFoundation): Foundation-focused YouTube channel.
+*   [Starting with Appkit on Gradle projects](https://github.com/ergoplatform/ergo-appkit/wiki/Tutorial-starting-with-Appkit-on-Gradle-projects): Tutorial for setting up AppKit projects.
+*   [AppKit by Example (Video)](https://www.youtube.com/watch?v=Md5s-XV6-Hs): Video tutorial demonstrating AppKit usage.
+*   [Learn ErgoScript By Example Via The Ergo Playground (Video)](https://www.youtube.com/watch?v=8l2v1asHgyA): Video tutorial by Robert Kornacki.
+*   [Multi-Stage Contracts in the UTXO Model (Video)](https://www.youtube.com/watch?v=g3FlM_WOwBU): Presentation by Alexander Chepurnoy & Amitabh Saxena.
+*   [ErgoScript Design patterns (Forum)](https://www.ergoforum.org/t/ergoscript-design-patterns/222): Forum discussion on common ErgoScript patterns.
+*   [Advanced ErgoScript Tutorial (PDF)](https://ergoplatform.org/docs/AdvancedErgoScriptTutorial.pdf): In-depth tutorial document.
+*   [Ergo with C# 101 (Video Playlist)](https://www.youtube.com/watch?v=aUuki-fAxwc&list=PLUWruihtE-HtL-JZk8Vb4Yn_H18aE3rb6): YouTube playlist covering C# development for Ergo.
+*   [A Quick Primer on ErgoScript (Wiki)](https://github.com/ergoplatform/ergo/wiki/ErgoScript-Overview): Wiki page providing an overview.
+*   [Building Ergo: ErgoScript (Blog)](https://ergoplatform.org/en/blog/2021-06-09-building-ergo-ergoscript/): Blog post detailing ErgoScript.
 *   [Using Appkit from Python (Wiki)](https://github.com/ergoplatform/ergo-appkit/wiki/Using-Appkit-from-Python): Guide for using AppKit with Python via JPype.
 *   [Ergo Full Node on Raspberry Pi Guide](https://github.com/ccgarant/ergo-full-node-raspi): Community guide for setting up a full node on a Raspberry Pi.
 *   [Fleet SDK Documentation](https://fleet-sdk.github.io/docs/): Official documentation for the Fleet SDK.
@@ -564,6 +578,8 @@ A curated list of awesome projects, tools, libraries, and resources for the Ergo
 *   [Ergohack Sidechain Whitepaper](https://github.com/ross-weir/ergohack-sidechain/blob/main/docs/whitepaper/sidechain.pdf): Whitepaper for the Ergohack sidechain proof-of-concept.
 *   [Ergohack Sidechain Repo](https://github.com/ross-weir/ergohack-sidechain): Ergohack sidechain proof-of-concept repo. [`Rust`?]
 *   [Stealth Address Docs (Aragogi)](https://github.com/aragogi/Stealth-doc): Documentation for a stealth address scanner/mixer concept.
+*   [Test Vectors - Transaction Serialization](https://github.com/ergoplatform/ergo-test-vectors/blob/master/src/test/resources/vector/tx_ser.json): Examples for transaction serialization tests.
+*   [Test Vectors - Signature Scheme](https://github.com/ergoplatform/ergo-test-vectors/blob/master/src/test/resources/vector/sig.json): Examples for signature scheme tests.
 
 ### Utilities
 
@@ -572,3 +588,5 @@ A curated list of awesome projects, tools, libraries, and resources for the Ergo
 *   [ErgoToolsBot (Telegram)](https://t.me/ergotoolsbot): Telegram bot providing various Ergo utilities. [GitHub](https://github.com/ladopixel/ErgoToolsBot) [`Python`]
 *   [Matterbridge](https://github.com/42wim/matterbridge): Software used for bridging Ergo community chats between Discord and Telegram.
 *   [SharkNet](https://github.com/The-Last-Byte-Bar/SharkNet): Community-curated dataset of ErgoScript examples for training AI/ML models for developer tooling.
+
+---
