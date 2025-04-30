@@ -86,11 +86,6 @@
 - 🥇 **[Reference Client (Node)](https://github.com/ergoplatform/ergo)** – Official Scala implementation of the Ergo protocol. [`Scala`] *(Active)*
   - *See [Ergo Documentation](https://docs.ergoplatform.com/node/install/) for installation guides, including [bootstrapping from a UTXO snapshot](https://docs.ergoplatform.com/node/pruned-full-node/).*
 - [Ergode](https://github.com/ross-weir/ergode) – An experimental full node implementation written in TypeScript. [`TS`] *(Experimental, ErgoHack)*
-- [Ergo (Jellymlg Fork)](https://github.com/jellymlg/ergo) – Community fork of the reference node. [`Scala`] *(Community Fork)*
-- [Ergo (Luivatra Fork)](https://github.com/Luivatra/ergo) – Community fork of the reference node. [`Scala`] *(Community Fork)*
-- [Ergo (Pragmaxim Fork)](https://github.com/pragmaxim/ergo) – Community fork of the reference node. [`Scala`] *(Community Fork)*
-- [Ergo (ccellado Fork)](https://github.com/ccellado/ergo) - Community fork of the reference node. [`Scala`] *(Community Fork)*
-- [Ergo (WilfordGrimley Fork)](https://github.com/WilfordGrimley/ergo) - Community fork, potentially with experimental features (e.g., EIP-38). [`Scala`] *(Community Fork)*
 
 ### 🔮 Oracles <a id="oracles"></a>
 
