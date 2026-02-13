@@ -117,6 +117,7 @@
   - [CLI Utils](https://github.com/rosen-bridge/utils/tree/dev/packages/cli) – Command-line utilities for bridge operations. [`TS`?]
   - [Docker Deploy Guide](https://github.com/rosen-bridge/operation/blob/dev/docs/watcher/deploy-docker.md) – Guide for deploying bridge components using Docker.
 - [ErgoGravity Gateway Proxy](https://github.com/ErgoGravity/gateway-proxy) - Proxy component potentially related to cross-chain communication or bridging. *(Community, Context Needed)*
+- [RustChain Ergo Anchor](https://github.com/Scottcjn/Rustchain) – Proof of Antiquity blockchain that anchors miner attestation data into Ergo box registers (R4-R9). Rewards vintage hardware (PowerPC G4/G5, POWER8) for mining with time-aged multipliers. [`Python`] *(Community, Active)*
 
 ## 💼 Wallets <a id="wallets"></a>
 
