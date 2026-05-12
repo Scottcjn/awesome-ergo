@@ -11,7 +11,7 @@
 
 <p align="center">
   <a href="https://github.com/ergoplatform/awesome-ergo/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen?logo=github" alt="PRs welcome"></a>
-  <a href="https://github.com/ergoplatform/awesome-ergo/blob/master/LICENSE"><img src="https://img.shields.io/badge/license-CC0_1.0-lightgrey.svg" alt="License: CC0"></a>
+  <a href="https://creativecommons.org/publicdomain/zero/1.0/"><img src="https://img.shields.io/badge/license-CC0_1.0-lightgrey.svg" alt="License: CC0"></a>
 </p>
 
 > **Contributing:** open a PR to add or update projects. Items must be active & have a working URL.
