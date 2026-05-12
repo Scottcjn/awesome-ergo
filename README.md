@@ -141,7 +141,7 @@
 
 ### 🛟 Wallet Utilities & Recovery <a id="utilities--recovery"></a>
 
-- 🥇 **[Ergo Paper Wallet Generator](https://anon-br.github.io/ergo-paper-wallet/)** – Securely generate paper wallets offline *(Live)*. [GitHub](https://github.com/anon-br/ergo-paper-wallet) | [Fork](https://github.com/platypus45/ergo-paper-wallet) [`JS/TS`]
+- 🥇 **[Ergo Paper Wallet Generator](https://github.com/arobsn/ergo-paper-wallet)** – Securely generate paper wallets offline. [Fork](https://github.com/platypus45/ergo-paper-wallet) [`JS/TS`]
 - [Yoroi Wallet Recovery Tool](https://github.com/satsen/yoroi-ergo-wallet-recover) – Tool to recover funds sent to legacy Yoroi Ergo wallets. [`Java`]
 - [Stealth Address Generator](https://ergomixer.github.io/stealth/) – Web tool for generating EIP-41 stealth addresses.
 - [Cold Wallet Setup Guide (Wiki)](https://github.com/ergoplatform/ergo-wallet-app/wiki/Cold-wallet) – Guide for setting up cold storage using the official mobile apps.
