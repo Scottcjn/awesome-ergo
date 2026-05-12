@@ -426,7 +426,7 @@
 - [Single Transaction Swap](https://www.single-tx-swap.com/) – UI facilitating atomic swaps between two parties within a single transaction *(Live)*. [GitHub](https://github.com/danieloravec/ergo-token-swap) *(Active, ErgoHack)*
 - [Arbit](https://github.com/ConnecMent/arbit) – Simple arbitrage platform aiming to capture price differences across Ergo DEXs. [`JS`] *(Active?)*
 - [Analog Ergo](https://github.com/dzyphr/ScalaSigmaParticle) – P2P atomic swap protocol implementation. [Contract](https://github.com/dzyphr/ScalaSigmaParticle/blob/main/ScalarLock/src/main/scala/ScalarLock.scala) | [UI PoC](https://github.com/dzyphr/AtomicAnalogSwapWebsite) *(Experimental)*
-- [Mew Finance](https://mewfinance.com/) – DeFi suite including a DEX, NFT marketplace, and other financial tools *(Live)*. [Docs](docs/eco/mew-finance.md) | [Telegram](https://t.me/MewFinance) *(Active)*
+- [Mew Finance](https://mewfinance.com/) – DeFi suite including a DEX, NFT marketplace, and other financial tools *(Live)*. [Telegram](https://t.me/MewFinance) *(Active)*
 
 ### 🏦 Stablecoins & Lending <a id="stablecoins--lending"></a>
 
